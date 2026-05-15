@@ -2,7 +2,7 @@ namespace book.info.Model;
 
 public class Book
 {
-    public int Id { get; set; }
+    public int Id { get; private set; }
     public string? ISBN { get; set; } //TODO- what format is an ISBN anyway?j
     public string? ISBN13 { get; set; }
     public string Title { get; set; }
